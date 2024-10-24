@@ -3,6 +3,7 @@
 const DownloadPdf = () => {
 	return (
 		<a
+			download
 			href="/files/cv_developpeur.pdf"
 			target="_blank"
 			rel="noopener noreferrer"
