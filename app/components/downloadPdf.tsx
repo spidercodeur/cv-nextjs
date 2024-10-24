@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 
-const PrintButton = () => {
+const DownloadPdf = () => {
 	return (
 		<Link
 			href="/CV-developpeur.pdf"
@@ -12,4 +12,4 @@ const PrintButton = () => {
 		</Link>
 	);
 };
-export default PrintButton;
+export default DownloadPdf;
