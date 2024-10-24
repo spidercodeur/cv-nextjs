@@ -10,7 +10,7 @@ export default function Home() {
 	return (
 		<div className="py-6 px-4 max-w-screen-lg print:max-w-screen-xl sm:flex mx-auto">
 			<About />
-			<div className="md:w-2/3  w-full md:mt-12">
+			<div className="md:w-2/3 w-full md:mt-12">
 				<Intro />
 				<Competence />
 				<Experience />

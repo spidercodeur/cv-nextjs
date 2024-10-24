@@ -7,7 +7,7 @@ import Image from "next/image";
 const About = () => {
 	return (
 		<div className="md:w-1/3 p-2 relative flex justify-center">
-			<div className="md:fixed md:mt-32 items-center">
+			<div className="md:fixed md:mt-12 items-center">
 				<div className=" text-center ">
 					<div className="h-40 w-40 m-auto  grayscale hover:grayscale-30">
 						<Image
