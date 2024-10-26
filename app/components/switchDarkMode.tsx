@@ -7,10 +7,7 @@ export default function SwitcheDarkMode() {
 
 	return (
 		<nav className="hidden right-0 items-center xl:block xl:fixed p-4 print:hidden">
-			<button
-				onClick={toggleDarkMode}
-				className="bg-gray-100 dark:bg-gray-800 p-2 rounded"
-			>
+			<button onClick={toggleDarkMode}>
 				{darkMode ? <Icons.lightIcon /> : <Icons.darkIcon />}
 			</button>
 		</nav>
