@@ -9,16 +9,13 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
-		"html2canvas": "^1.4.1",
-		"jspdf": "^2.5.2",
 		"next": "15.0.0",
-		"print-js": "^1.6.0",
 		"react": "19.0.0-rc-65a56d0e-20241020",
 		"react-dom": "19.0.0-rc-65a56d0e-20241020",
 		"react-svg": "^16.1.34"
 	},
 	"devDependencies": {
-		"@types/node": "^20.17.0",
+		"@types/node": "^20.17.1",
 		"@types/react": "^18.3.12",
 		"@types/react-dom": "^18.3.1",
 		"eslint": "^8.57.1",

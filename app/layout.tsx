@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto_Mono } from "next/font/google";
 import "./globals.css";
-
+import { DarkModeProvider } from "./components/darkModeProvider";
 const roboto_mono = Roboto_Mono({
 	subsets: ["latin"],
 	display: "swap",
@@ -19,12 +19,14 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="fr">
-			<body
-				className={`${roboto_mono.className} antialiased transition duration-500 bg-slate-50 dark:bg-slate-800`}
-			>
-				{children}
-			</body>
-		</html>
+		<DarkModeProvider>
+			<html lang="fr">
+				<body
+					className={`${roboto_mono.className} antialiased transition duration-500 bg-slate-50 dark:bg-slate-800`}
+				>
+					{children}
+				</body>
+			</html>
+		</DarkModeProvider>
 	);
 }
