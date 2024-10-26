@@ -1,4 +1,4 @@
-# CV de Eddy
+# CV en nextjs 15, tailwind
 
 Exemple de template CV en Next.js 15 et stylisé avec Tailwind CSS pour une présentation moderne et réactive.
 
