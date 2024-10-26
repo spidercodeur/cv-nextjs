@@ -2,8 +2,8 @@
 
 Exemple de template CV en Next.js 15 et stylisé avec Tailwind CSS pour une présentation moderne et réactive.
 
-![Aperçu du CV dark](assets/thumbnail.jpeg)
-![Aperçu du CV white](assets/thumbnail2.jpeg)
+![Aperçu du CV ](/public/images/thumbnail.jpeg)
+![Aperçu du CV ](/public/images/thumbnail_2.jpeg)
 
 ## Installation
 
